@@ -24,17 +24,25 @@ const PROFILE_DATA = {
   caseStudiesCount: "1,000+",
   avatar: "assets/nitesh-alag.png",
   avatarFallback: "https://static.topmate.io/profile_pic_265016_2b2de9ae-f549-436a-a58b-ec174f1bf713.png",
-  bio: `An accomplished Astrologer, Vastu Expert, and Numerologist with over 12+ years of expertise in the realm of occult sciences and consultancy, Nitesh blends a robust IT background with a profound knowledge of Vedic sciences.
-
-With 22+ years as a Database Specialist in technical leadership roles, his analytical mindset and personal spiritual experiences ignited a deep passion for the empirical depth of Vedic sciences. Nitesh's journey has been enriched by learning under distinguished Gurus, acquiring formal training in Vastu Shastra, Astrology, Numerology, Dowsing, Swaryoga, and advanced L-ROD energy scanning in Mumbai.
-
-Now a certified practitioner and Bach Flower Therapist, his mission is to integrate ancient Vedic spatial techniques with modern living—bringing harmony, peace, and abundance without disruptive demolition.`,
-  badges: [
-    { name: "Top Rated Expert", icon: "star", detail: "4.9 / 5 Rating" },
-    { name: "1,000+ Case Studies", icon: "shield-check", detail: "Vastu & Kundali" },
-    { name: "Certified Therapist", icon: "flower", detail: "Bach Flower Healing" },
-    { name: "L-ROD Energy Scanner", icon: "compass", detail: "Geopathic & Aura Analysis" }
+  jobTitle: "✴️ Vedic Astrology & Numerology (with written or call-based readings) 🏡 Vastu Consulting for homes, shops & offices 🌸 Bach Flower Therapy for emotional and mental balance 🔮 Over 12+ years, I’ve guided clients from across India and abroad",
+  headlinePoints: [
+    "✴️ Vedic Astrology & Numerology (with written or call-based readings)",
+    "🏡 Vastu Consulting for homes, shops & offices",
+    "🌸 Bach Flower Therapy for emotional and mental balance",
+    "🔮 Over 12+ years, I’ve guided clients from across India and abroad"
   ],
+  bio: `An accomplished Astrologer, Vastu Expert, and Numerologist with over 12+ years of expertise in the realm of occult sciences and consultancy, Nitesh blends a robust IT background with a profound knowledge of Vedic sciences. With 22+ years as a Database Specialist in various technical roles, his personal experiences ignited a deep curiosity and passion for the rich spectrum of Vedic sciences.
+
+Nitesh's journey has been enriched by learning under distinguished Gurus, acquiring formal training in Vastu, Astrology, Numerology, Dowsing, Swaryoga. Now, as a certified and renowned professional and Bach Flower Therapist, he has transformed his lifelong study and application of these sacred sciences into a successful profession, dedicated to harnessing their transformative power for modern life.
+
+The mission of Nitesh is to integrate ancient Vedic techniques with contemporary living, enhancing awareness and trust in our cultural heritage and the mystical prowess of Vedic science. Serving clients nationwide and globally, Nitesh provides both on-site and online consultations tailored to client needs.
+
+Nitesh's extensive training includes Swaryoga practices under a versatile Guru and advanced L-ROD energy scanning in Mumbai. His specialties span across Relationship Case Studies, Career Problem Solutions, Educational Guidance, and Health Consultations through Astrology and Bach Flower Therapy. With a passion for aiding humanity, he offers complimentary health guidance, believing in the power of astrology to positively impact lives.
+
+With a portfolio of over 1,000 detailed case studies in Astrology Consulting , Vastu Analysis and Bach Flower Consulting for healing emotional setbacks.
+
+Nitesh Alag is highly regarded for his insightful guidance, selflessness, and clarity, empowering clients with confidence and impactful solutions.`,
+  topmateBadges: ["Hustler", "Community Care", "Host Worthy"],
   socials: [
     { name: "Instagram", url: "https://www.instagram.com/niteshalag?utm_source=qr&igsh=MWVuOGQzNmdnejFuaA==", icon: "instagram" },
     { name: "YouTube", url: "https://www.youtube.com/channel/UCFUpGc246iC45c550RppUaA/videos", icon: "youtube" },
