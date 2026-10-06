@@ -1,20 +1,24 @@
 /**
- * Vastu by Nitesh - Profile, Services & Testimonial Data
- * Extracted and structured from official profile
+ * Vastu by Nitesh - Profile, Services, Testimonials & Blog Data
+ * Authoritative Vastu Shastra Consultant & Energy Alignment Expert
  */
 
 const SITE_CONFIG = {
-  // Configurable WhatsApp Phone Number (international format without + or spaces)
-  // Default placeholder is set to standard format, easily changed to actual number
+  // Configurable WhatsApp Phone Number
   whatsappNumber: "917730903111", 
   whatsappDisplayNumber: "+91 77309 03111",
-  whatsappDefaultMsg: "Namaste Nitesh ji, I would like to consult with you regarding Vedic Vastu & Astrology."
+  whatsappDefaultMsg: "Namaste Nitesh ji, I would like to consult with you regarding Vastu Shastra for my space.",
+  
+  // Medium Publication / Profile Configuration
+  mediumProfileUrl: "https://medium.com/@niteshalag",
+  mediumUsername: "@niteshalag",
+  mediumAuthorName: "Nitesh Alag"
 };
 
 const PROFILE_DATA = {
   name: "Nitesh Alag",
-  title: "Vedic Astrologer, Vastu Expert & Bach Flower Therapist",
-  tagline: "Bridging 5,000-Year-Old Vedic Spatial Wisdom with Contemporary Scientific Clarity",
+  title: "Vastu Shastra Expert & Spatial Energy Consultant",
+  tagline: "Bridging 5,000-Year-Old Vedic Spatial Science with 22+ Years Analytical IT Precision",
   experienceYears: "12+",
   itExperienceYears: "22+",
   rating: 4.9,
@@ -24,30 +28,25 @@ const PROFILE_DATA = {
   caseStudiesCount: "1,000+",
   avatar: "assets/nitesh-alag.png",
   avatarFallback: "https://static.topmate.io/profile_pic_265016_2b2de9ae-f549-436a-a58b-ec174f1bf713.png",
-  jobTitle: "✴️ Vedic Astrology & Numerology (with written or call-based readings) 🏡 Vastu Consulting for homes, shops & offices 🌸 Bach Flower Therapy for emotional and mental balance 🔮 Over 12+ years, I’ve guided clients from across India and abroad",
+  jobTitle: "🏢 Scientific Vastu for IT Parks, Commercial Hubs & Modern Apartments 🏡 Non-Demolition Spatial Remedies & L-ROD Energy Scanning 🌸 Holistic Emotional Well-being via Bach Flower Therapy 🔮 Over 12+ years, guiding clients across India and globally",
   headlinePoints: [
-    "✴️ Vedic Astrology & Numerology (with written or call-based readings)",
-    "🏡 Vastu Consulting for homes, shops & offices",
-    "🌸 Bach Flower Therapy for emotional and mental balance",
-    "🔮 Over 12+ years, I’ve guided clients from across India and abroad"
+    "🏢 Scientific Vastu for IT Parks, Commercial Hubs & Modern Apartments",
+    "🏡 Non-Demolition Spatial Remedies & L-ROD Telluric Energy Scanning",
+    "🧭 Directional 16-Zone Energy Balancing for Health, Wealth & Focus",
+    "🌸 Holistic Wellness: Bach Flower Therapy & Complementary Vedic Astrology"
   ],
-  bio: `An accomplished Astrologer, Vastu Expert, and Numerologist with over 12+ years of expertise in the realm of occult sciences and consultancy, Nitesh blends a robust IT background with a profound knowledge of Vedic sciences. With 22+ years as a Database Specialist in various technical roles, his personal experiences ignited a deep curiosity and passion for the rich spectrum of Vedic sciences.
+  bio: `Nitesh Alag is an accomplished Vastu Shastra Expert and Spatial Energy Consultant with over 12+ years of professional practice in occult and architectural energy sciences. Uniquely combining 22+ years of high-level IT database architecture experience with ancient Vedic spatial design, Nitesh brings an unmatched analytical, data-driven rigor to energy alignment.
 
-Nitesh's journey has been enriched by learning under distinguished Gurus, acquiring formal training in Vastu, Astrology, Numerology, Dowsing, Swaryoga. Now, as a certified and renowned professional and Bach Flower Therapist, he has transformed his lifelong study and application of these sacred sciences into a successful profession, dedicated to harnessing their transformative power for modern life.
+His expertise specializes in modern high-rise apartments, tech parks, corporate offices, and luxury residences. Recognizing that modern architectural constraints make structural breaking impractical, Nitesh champions the 'Zero-Demolition Vastu' philosophy—rectifying energy imbalances through subtle elemental re-balancing, metallic inserts, sacred geometry, color harmonics, and precision directional orientation.
 
-The mission of Nitesh is to integrate ancient Vedic techniques with contemporary living, enhancing awareness and trust in our cultural heritage and the mystical prowess of Vedic science. Serving clients nationwide and globally, Nitesh provides both on-site and online consultations tailored to client needs.
-
-Nitesh's extensive training includes Swaryoga practices under a versatile Guru and advanced L-ROD energy scanning in Mumbai. His specialties span across Relationship Case Studies, Career Problem Solutions, Educational Guidance, and Health Consultations through Astrology and Bach Flower Therapy. With a passion for aiding humanity, he offers complimentary health guidance, believing in the power of astrology to positively impact lives.
-
-With a portfolio of over 1,000 detailed case studies in Astrology Consulting , Vastu Analysis and Bach Flower Consulting for healing emotional setbacks.
-
-Nitesh Alag is highly regarded for his insightful guidance, selflessness, and clarity, empowering clients with confidence and impactful solutions.`,
-  topmateBadges: ["Hustler", "Community Care", "Host Worthy"],
+Trained formally under distinguished Gurus, his mastery encompasses Vastu Shastra, advanced L-ROD energy scanning for geopathic stress, Swaryoga, and certified Bach Flower Therapy. Whether evaluating a tech startup's founder cabin for cash flow, or realigning a luxury high-rise apartment for peace and health, Nitesh provides clear, logical, and transformative guidance trusted by doctors, corporate executives, entrepreneurs, and homeowners across India and worldwide.`,
+  topmateBadges: ["Vastu Authority", "IT Veteran", "Community Care", "Host Worthy"],
   socials: [
+    { name: "Medium", url: "https://medium.com/@niteshalag", icon: "medium" },
+    { name: "LinkedIn", url: "https://www.linkedin.com/in/nitesh-alag", icon: "linkedin" },
     { name: "Instagram", url: "https://www.instagram.com/niteshalag?utm_source=qr&igsh=MWVuOGQzNmdnejFuaA==", icon: "instagram" },
     { name: "YouTube", url: "https://www.youtube.com/channel/UCFUpGc246iC45c550RppUaA/videos", icon: "youtube" },
     { name: "Facebook", url: "https://www.facebook.com/Vgyaanvastu?mibextid=ZbWKwL", icon: "facebook" },
-    { name: "LinkedIn", url: "https://www.linkedin.com/in/nitesh-alag", icon: "linkedin" },
     { name: "Twitter/X", url: "https://x.com/NiteshAlag1301?t=nyC073PaZcXAZEpxWBMy4A&s=09", icon: "twitter" }
   ]
 };
@@ -56,41 +55,41 @@ const VASTU_ELEMENTS = [
   {
     element: "Jal (Water)",
     zone: "North-East (Ishanya)",
-    color: "#4A707A",
+    color: "#3E6B7A",
     deity: "Lord Shiva / Kuber",
-    description: "Governs mental clarity, spiritual growth, financial influx, and tranquility. Best kept open, pristine, and light.",
+    description: "Governs mental clarity, visionary leadership, financial influx, and tranquility. Best kept open, pristine, and light.",
     icon: "droplet"
   },
   {
     element: "Vayu (Air)",
     zone: "North-West (Vayavya)",
-    color: "#6B8E7D",
+    color: "#4F6E5F",
     deity: "Vayu Deva",
-    description: "Rules social relationships, helpful networking, communication, and smooth movement of trade and guests.",
+    description: "Rules social networks, team collaboration, business partnerships, and smooth logistical movement.",
     icon: "wind"
   },
   {
     element: "Agni (Fire)",
     zone: "South-East (Agneya)",
-    color: "#BD7754",
+    color: "#B86749",
     deity: "Agni Deva",
-    description: "Fosters health, physical vigor, passion, liquidity, and culinary prosperity. The natural home for the kitchen and electricals.",
+    description: "Fosters vitality, operational speed, passion, cash liquidity, and active conversion. Ideal for servers, kitchens, and power sources.",
     icon: "flame"
   },
   {
     element: "Prithvi (Earth)",
     zone: "South-West (Nairutya)",
-    color: "#8C7B65",
+    color: "#7D6B56",
     deity: "Nirriti / Stability",
-    description: "Provides grounded stability, strong family bonds, leadership, and emotional endurance. Best suited for the master bedroom.",
+    description: "Anchors grounded stability, leadership authority, executive cabins, and financial retention. Governs structural weight and master suites.",
     icon: "mountain"
   },
   {
     element: "Akasha (Space)",
     zone: "Center (Brahma Sthan)",
-    color: "#7E9084",
+    color: "#6B7C72",
     deity: "Brahma",
-    description: "The core epicentre of all home and workplace energies. Must remain free of structural burdens, pillars, and clutter.",
+    description: "The core vibrational nexus of your building or apartment. Must remain unobstructed, unburdened, and illuminated for ambient cosmic energy circulation.",
     icon: "sun"
   }
 ];
@@ -421,5 +420,77 @@ const FAQS_DATA = [
   {
     q: "What is Bach Flower Therapy and how does it combine with Astrology?",
     a: "Bach Flower Therapy consists of 38 natural flower remedies discovered by Dr. Edward Bach that treat emotional imbalances (fear, anxiety, grief, indecision). By cross-analyzing your planetary dasha and moon sign, Nitesh identifies psychosomatic vulnerabilities and prescribes targeted remedies."
+  }
+];
+
+// Blog Posts Data & Medium Integration
+const BLOG_POSTS_DATA = [
+  {
+    id: "blog-1",
+    title: "Vastu Shastra for High-Tech IT Parks & Corporate Workspaces",
+    slug: "vastu-for-it-parks-corporate-workspaces",
+    category: "commercial",
+    categoryLabel: "Corporate & IT Vastu",
+    readTime: "6 min read",
+    date: "Sep 2026",
+    image: "assets/vastu-it-building.jpg",
+    mediumUrl: "https://medium.com/@niteshalag",
+    summary: "How modern tech campuses and IT enterprises leverage ancient 16-zone directional alignments to elevate engineering focus, reduce team attrition, and protect cash reserves.",
+    bullets: [
+      "Why founder cabins in Nairutya (South-West) anchor corporate stability",
+      "Server room energy: Managing Agni (Fire) zone without electromagnetic fatigue",
+      "Practical non-intrusive floor alignment for open-plan agile workspaces"
+    ]
+  },
+  {
+    id: "blog-2",
+    title: "Balancing Modern High-Rise Apartments with Zero Demolition",
+    slug: "modern-apartment-vastu-zero-demolition",
+    category: "residential",
+    categoryLabel: "Apartment Vastu",
+    readTime: "5 min read",
+    date: "Sep 2026",
+    image: "assets/vastu-modern-apartment.jpg",
+    mediumUrl: "https://medium.com/@niteshalag",
+    summary: "Living on the 14th floor of a concrete tower? Discover how subtle color harmonics, metallic boundary inserts, and elemental balances overcome structural flaws without breaking a single tile.",
+    bullets: [
+      "Rectifying North-East toilets and cut corners in builder flats",
+      "Optimizing balcony airflow and positive morning sunlight capture",
+      "Master bedroom Vastu for deep rejuvenating sleep and emotional calm"
+    ]
+  },
+  {
+    id: "blog-3",
+    title: "The Emotional Environment: Bach Flower Therapy Meets Spatial Energy",
+    slug: "bach-flower-therapy-spatial-energy",
+    category: "wellness",
+    categoryLabel: "Bach Flower Wellness",
+    readTime: "4 min read",
+    date: "Aug 2026",
+    image: "assets/vastu-flowers-wellness.jpg",
+    mediumUrl: "https://medium.com/@niteshalag",
+    summary: "How environmental geopathic stress triggers psychosomatic fatigue, and why gentle natural flower remedies act as a gentle energetic bridge to restore inner equilibrium.",
+    bullets: [
+      "Understanding Dr. Edward Bach's 38 flower essence philosophy",
+      "Why sensitive individuals absorb apartment energy blockages",
+      "Simple daily wellness routines for a peaceful, centered mind"
+    ]
+  },
+  {
+    id: "blog-4",
+    title: "Creating a Thriving Home Sanctuary for Family Joy & Abundance",
+    slug: "creating-a-thriving-home-sanctuary",
+    category: "lifestyle",
+    categoryLabel: "Harmonious Living",
+    readTime: "5 min read",
+    date: "Aug 2026",
+    image: "assets/vastu-happy-living.jpg",
+    mediumUrl: "https://medium.com/@niteshalag",
+    summary: "A practical guide to welcoming prana (vital life force) into your everyday living room through natural sunlight, indoor flora, and unburdened central space.",
+    bullets: [
+      "The sacred role of Brahma Sthan (the central core of your home)",
+      "Plants and flowers that enhance Jal and Vayu zones",
+      "How decluttering specific directional corners unlocks family happiness"
+    ]
   }
 ];

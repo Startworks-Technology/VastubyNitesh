@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initNavigation();
   initTattvaElements();
   initServicesFilter();
+  initBlogPreview();
   initTestimonials();
   initInquiryForm();
   initFaqAccordion();
@@ -326,3 +327,42 @@ function initFloatingWhatsApp() {
     });
   }
 }
+
+/* ==========================================================================
+   Home Page Blog Teaser Rendering
+   ========================================================================== */
+function initBlogPreview() {
+  const container = document.getElementById("homeBlogGrid");
+  if (!container || !BLOG_POSTS_DATA) return;
+
+  container.innerHTML = BLOG_POSTS_DATA.slice(0, 2).map(post => `
+    <article class="blog-card">
+      <div class="blog-card-media">
+        <img src="${post.image}" alt="${post.title}" loading="lazy" onerror="this.src='assets/vastu-it-building.jpg'">
+        <span class="blog-card-tag">${post.categoryLabel}</span>
+      </div>
+      <div class="blog-card-content">
+        <div class="blog-card-meta">
+          <span>${post.readTime}</span>
+          <span>•</span>
+          <span>${post.date}</span>
+        </div>
+        <h3 class="blog-card-title">
+          <a href="${post.mediumUrl}" target="_blank" rel="noopener noreferrer">${post.title}</a>
+        </h3>
+        <p class="blog-card-summary">${post.summary}</p>
+        <div class="blog-card-actions">
+          <a href="${post.mediumUrl}" target="_blank" rel="noopener noreferrer" class="blog-medium-link">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/>
+            </svg>
+            <span>Read on Medium</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="blog.html" class="btn btn-sm btn-outline">Explore Blog</a>
+        </div>
+      </div>
+    </article>
+  `).join("");
+}
+
