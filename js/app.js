@@ -336,10 +336,10 @@ function initBlogPreview() {
   const container = document.getElementById("homeBlogGrid");
   if (!container || !BLOG_POSTS_DATA) return;
 
-  container.innerHTML = BLOG_POSTS_DATA.slice(0, 2).map(post => `
+  container.innerHTML = BLOG_POSTS_DATA.slice(0, 3).map(post => `
     <article class="blog-card">
       <div class="blog-card-media">
-        <img src="${post.image}" alt="${post.title}" loading="lazy" onerror="this.src='assets/vastu-it-building.jpg'">
+        <img src="${post.image}" alt="${post.title}" loading="lazy" onerror="this.src='${post.fallbackImage || 'assets/vastu-it-building.jpg'}'">
         <span class="blog-card-tag">${post.categoryLabel}</span>
       </div>
       <div class="blog-card-content">
@@ -360,7 +360,7 @@ function initBlogPreview() {
             <span>Read on Medium</span>
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </a>
-          <a href="blog.html" class="btn btn-sm btn-outline">Explore Blog</a>
+          <a href="blog.html" class="btn btn-sm btn-outline">All Articles</a>
         </div>
       </div>
     </article>

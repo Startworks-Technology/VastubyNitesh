@@ -10,9 +10,14 @@ const SITE_CONFIG = {
   whatsappDefaultMsg: "Namaste Nitesh ji, I would like to consult with you regarding Vastu Shastra for my space.",
   
   // Medium Publication / Profile Configuration
-  mediumProfileUrl: "https://medium.com/@niteshalag",
-  mediumUsername: "@niteshalag",
-  mediumAuthorName: "Nitesh Alag"
+  mediumProfileUrl: "https://niteshalaagh.medium.com/",
+  mediumUsername: "@niteshalaagh",
+  mediumAuthorName: "Nitesh Alag",
+  
+  // Official Social Media Channels
+  youtubeUrl: "https://www.youtube.com/@vastubynitesh",
+  facebookUrl: "https://www.facebook.com/VastuByNitesh/",
+  instagramUrl: "https://www.instagram.com/niteshalag/"
 };
 
 const PROFILE_DATA = {
@@ -42,12 +47,12 @@ His expertise specializes in modern high-rise apartments, tech parks, corporate 
 Trained formally under distinguished Gurus, his mastery encompasses Vastu Shastra, advanced L-ROD energy scanning for geopathic stress, Swaryoga, and certified Bach Flower Therapy. Whether evaluating a tech startup's founder cabin for cash flow, or realigning a luxury high-rise apartment for peace and health, Nitesh provides clear, logical, and transformative guidance trusted by doctors, corporate executives, entrepreneurs, and homeowners across India and worldwide.`,
   badges: ["Vastu Authority", "IT Veteran", "Community Care", "Host Worthy"],
   socials: [
-    { name: "Medium", url: "https://medium.com/@niteshalag", icon: "medium" },
-    { name: "LinkedIn", url: "https://www.linkedin.com/in/nitesh-alag", icon: "linkedin" },
-    { name: "Instagram", url: "https://www.instagram.com/niteshalag?utm_source=qr&igsh=MWVuOGQzNmdnejFuaA==", icon: "instagram" },
-    { name: "YouTube", url: "https://www.youtube.com/channel/UCFUpGc246iC45c550RppUaA/videos", icon: "youtube" },
-    { name: "Facebook", url: "https://www.facebook.com/Vgyaanvastu?mibextid=ZbWKwL", icon: "facebook" },
-    { name: "Twitter/X", url: "https://x.com/NiteshAlag1301?t=nyC073PaZcXAZEpxWBMy4A&s=09", icon: "twitter" }
+    { name: "Medium", url: "https://niteshalaagh.medium.com/", icon: "medium", handle: "@niteshalaagh" },
+    { name: "YouTube", url: "https://www.youtube.com/@vastubynitesh", icon: "youtube", handle: "@vastubynitesh" },
+    { name: "Facebook", url: "https://www.facebook.com/VastuByNitesh/", icon: "facebook", handle: "VastuByNitesh" },
+    { name: "Instagram", url: "https://www.instagram.com/niteshalag/", icon: "instagram", handle: "@niteshalag" },
+    { name: "LinkedIn", url: "https://www.linkedin.com/in/nitesh-alag", icon: "linkedin", handle: "nitesh-alag" },
+    { name: "Twitter/X", url: "https://x.com/NiteshAlag1301?t=nyC073PaZcXAZEpxWBMy4A&s=09", icon: "twitter", handle: "@NiteshAlag1301" }
   ]
 };
 
@@ -401,74 +406,114 @@ const FAQS_DATA = [
   }
 ];
 
-// Blog Posts Data & Medium Integration
+// Blog Posts Data & Medium Integration (Official articles from https://niteshalaagh.medium.com/)
 const BLOG_POSTS_DATA = [
   {
     id: "blog-1",
-    title: "Vastu Shastra for High-Tech IT Parks & Corporate Workspaces",
-    slug: "vastu-for-it-parks-corporate-workspaces",
-    category: "commercial",
-    categoryLabel: "Corporate & IT Vastu",
-    readTime: "6 min read",
-    date: "Sep 2026",
-    image: "assets/vastu-it-building.jpg",
-    mediumUrl: "https://medium.com/@niteshalag",
-    summary: "How modern tech campuses and IT enterprises leverage ancient 16-zone directional alignments to elevate engineering focus, reduce team attrition, and protect cash reserves.",
+    title: "I Reverse-Engineered a Wedding Like a Production Incident.",
+    slug: "reverse-engineered-wedding-production-incident",
+    category: "lifestyle",
+    categoryLabel: "Astrology & Life Events",
+    readTime: "7 min read",
+    date: "Oct 2026",
+    image: "https://cdn-images-1.medium.com/max/1024/1*m9OeVxm7q6U7SEXxJ19rxQ.png",
+    fallbackImage: "assets/vastu-happy-living.jpg",
+    mediumUrl: "https://niteshalaagh.medium.com/i-reverse-engineered-a-wedding-like-a-production-incident-db1c1ddd939b",
+    summary: "What a 22-year IT career taught me about checking astrology the honest way: pick an event with a production-level failure, don't look at the outcome, and see if the chart had already warned you.",
     bullets: [
-      "Why founder cabins in Nairutya (South-West) anchor corporate stability",
-      "Server room energy: Managing Agni (Fire) zone without electromagnetic fatigue",
-      "Practical non-intrusive floor alignment for open-plan agile workspaces"
+      "Treating life milestone analysis like high-stakes production incident reviews",
+      "How planetary combinations predicted specific vulnerability windows",
+      "Applying database architectural rigor and cross-validation to Vedic charts"
     ]
   },
   {
     id: "blog-2",
-    title: "Balancing Modern High-Rise Apartments with Zero Demolition",
-    slug: "modern-apartment-vastu-zero-demolition",
-    category: "residential",
-    categoryLabel: "Apartment Vastu",
-    readTime: "5 min read",
+    title: "The Cosmic Career Shift: What the Planets Reveal About AI, Jobs & Money",
+    slug: "cosmic-career-shift-planets-ai-jobs-money",
+    category: "commercial",
+    categoryLabel: "Corporate & AI Tech",
+    readTime: "9 min read",
     date: "Sep 2026",
-    image: "assets/vastu-modern-apartment.jpg",
-    mediumUrl: "https://medium.com/@niteshalag",
-    summary: "Living on the 14th floor of a concrete tower? Discover how subtle color harmonics, metallic boundary inserts, and elemental balances overcome structural flaws without breaking a single tile.",
+    image: "https://cdn-images-1.medium.com/max/1024/1*A0ApabXnBhLR9_2pbxCbvA.jpeg",
+    fallbackImage: "assets/vastu-it-building.jpg",
+    mediumUrl: "https://niteshalaagh.medium.com/the-cosmic-career-shift-what-the-planets-reveal-about-ai-jobs-money-249876a968a1",
+    summary: "What planetary transits reveal about the massive AI job earthquake, market layoffs, and tech sector turbulence — and how to navigate the unfolding cycle with strategic clarity.",
     bullets: [
-      "Rectifying North-East toilets and cut corners in builder flats",
-      "Optimizing balcony airflow and positive morning sunlight capture",
-      "Master bedroom Vastu for deep rejuvenating sleep and emotional calm"
+      "Analyzing major Saturn, Rahu, Ketu, and Jupiter transits across tech sectors",
+      "Why certain roles face sudden disruption while others surge with new demand",
+      "Strategic career and financial resilience for tech professionals in the AI era"
     ]
   },
   {
     id: "blog-3",
-    title: "The Emotional Environment: Bach Flower Therapy Meets Spatial Energy",
-    slug: "bach-flower-therapy-spatial-energy",
-    category: "wellness",
-    categoryLabel: "Bach Flower Wellness",
-    readTime: "4 min read",
-    date: "Aug 2026",
-    image: "assets/vastu-flowers-wellness.jpg",
-    mediumUrl: "https://medium.com/@niteshalag",
-    summary: "How environmental geopathic stress triggers psychosomatic fatigue, and why gentle natural flower remedies act as a gentle energetic bridge to restore inner equilibrium.",
+    title: "The Silent Salesperson — Why Your Logo is Subconsciously Make or Break Decision?",
+    slug: "silent-salesperson-why-your-logo-makes-or-breaks",
+    category: "commercial",
+    categoryLabel: "Astro-Vastu & Branding",
+    readTime: "6 min read",
+    date: "Jul 2026",
+    image: "https://cdn-images-1.medium.com/max/1024/1*MNXRi6JQCv0utduHaXBXxw.png",
+    fallbackImage: "assets/vastu-logo.png",
+    mediumUrl: "https://niteshalaagh.medium.com/the-silent-salesperson-why-your-logo-is-subconsciously-make-or-break-decision-c8a717c9f1bd",
+    summary: "Why your next corporate logo shouldn't start with a designer's mood board, but with elemental physics: why Red rules food, Blue is chosen for IT, and how geometry governs subconscious customer trust.",
     bullets: [
-      "Understanding Dr. Edward Bach's 38 flower essence philosophy",
-      "Why sensitive individuals absorb apartment energy blockages",
-      "Simple daily wellness routines for a peaceful, centered mind"
+      "The elemental physics behind brand colors (Fire, Water, Air, Earth, Space)",
+      "How sacred geometry shapes customer perception and deal conversion",
+      "Harmonizing founder astrological quadrants with corporate brand identity"
     ]
   },
   {
     id: "blog-4",
-    title: "Creating a Thriving Home Sanctuary for Family Joy & Abundance",
-    slug: "creating-a-thriving-home-sanctuary",
-    category: "lifestyle",
-    categoryLabel: "Harmonious Living",
-    readTime: "5 min read",
-    date: "Aug 2026",
-    image: "assets/vastu-happy-living.jpg",
-    mediumUrl: "https://medium.com/@niteshalag",
-    summary: "A practical guide to welcoming prana (vital life force) into your everyday living room through natural sunlight, indoor flora, and unburdened central space.",
+    title: "Why Two Employees at the Same Desk Have Different Productivity — A Directional Intelligence Case Study",
+    slug: "why-two-employees-same-desk-different-productivity",
+    category: "commercial",
+    categoryLabel: "Corporate & Seating Vastu",
+    readTime: "6 min read",
+    date: "Jul 2026",
+    image: "https://cdn-images-1.medium.com/max/1024/1*aGiZd9QDM1AFSVQV-JqkrA.jpeg",
+    fallbackImage: "assets/vastu-it-building.jpg",
+    mediumUrl: "https://niteshalaagh.medium.com/why-two-employees-at-the-same-desk-have-different-productivity-a-directional-intelligence-case-3df31f24c540",
+    summary: "Insights from 13+ years of reading directional energies and 22+ years inside corporate IT offices: why identical workstations produce completely opposite focus, stamina, and output in different people.",
     bullets: [
-      "The sacred role of Brahma Sthan (the central core of your home)",
-      "Plants and flowers that enhance Jal and Vayu zones",
-      "How decluttering specific directional corners unlocks family happiness"
+      "The 16-zone directional grid and its direct impact on cognitive focus",
+      "Matching personal elemental constitutions with spatial orientation",
+      "Zero-disruption seating adjustments for high-output engineering teams"
+    ]
+  },
+  {
+    id: "blog-5",
+    title: "Why Is Snowflake Blue and Databricks Red? I Asked the Stars.",
+    slug: "why-is-snowflake-blue-and-databricks-red",
+    category: "commercial",
+    categoryLabel: "Tech Platforms & Elements",
+    readTime: "7 min read",
+    date: "Jul 2026",
+    image: "https://cdn-images-1.medium.com/max/1015/1*6JNboYhkGaud95J4OSHNdA.png",
+    fallbackImage: "assets/vastu-it-building.jpg",
+    mediumUrl: "https://niteshalaagh.medium.com/why-is-snowflake-blue-and-databricks-red-i-asked-the-stars-5ee6c7a2e0ca",
+    summary: "A unique deep-dive by an enterprise Snowflake Architect who also reads Vedic charts: analyzing major tech titans through cosmic archetypes and the balance of Water (order) and Fire (speed).",
+    bullets: [
+      "Decoding enterprise data platform architectures through the 5 Vedic elements",
+      "Why color frequencies align with underlying computational philosophies",
+      "A bridge between deep cloud engineering and cosmic elemental wisdom"
+    ]
+  },
+  {
+    id: "blog-6",
+    title: "22 Years as a Database Architect. Then I Started Reading People.",
+    slug: "22-years-database-architect-then-started-reading-people",
+    category: "lifestyle",
+    categoryLabel: "Career, Mind & Healing",
+    readTime: "8 min read",
+    date: "Jul 2026",
+    image: "https://cdn-images-1.medium.com/max/1024/1*ubiXmG4j48sJtBJVXfOFeQ.jpeg",
+    fallbackImage: "assets/vastu-flowers-wellness.jpg",
+    mediumUrl: "https://niteshalaagh.medium.com/22-years-as-a-database-architect-then-i-started-reading-people-e38708f9b523",
+    summary: "Why some professionals thrive in roles that completely exhaust others, and how an ancient framework of five elements and Bach Flower emotional resonance explains human resilience better than personality tests.",
+    bullets: [
+      "From enterprise database schemas to the architectural blueprints of human energy",
+      "Diagnosing mental burnout, imposter syndrome, and elemental depletion",
+      "Synthesizing logical troubleshooting with Bach Flower emotional therapy"
     ]
   }
 ];

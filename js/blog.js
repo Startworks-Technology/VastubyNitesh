@@ -76,7 +76,7 @@ function renderBlogPosts(category) {
   container.innerHTML = filteredPosts.map(post => `
     <article class="blog-card">
       <div class="blog-card-media">
-        <img src="${post.image}" alt="${post.title}" loading="lazy" onerror="this.src='assets/vastu-it-building.jpg'">
+        <img src="${post.image}" alt="${post.title}" loading="lazy" onerror="this.src='${post.fallbackImage || 'assets/vastu-it-building.jpg'}'">
         <span class="blog-card-tag">${post.categoryLabel}</span>
       </div>
       <div class="blog-card-content">
