@@ -23,7 +23,7 @@ const SITE_CONFIG = {
 const PROFILE_DATA = {
   name: "Nitesh Alag",
   title: "Vastu Shastra Expert & Spatial Energy Consultant",
-  tagline: "Bridging 5,000-Year-Old Vedic Spatial Science with 22+ Years Analytical IT Precision",
+  tagline: "Bridging 5,000-Year-Old Vedic Vastu Wisdom with 22+ Years of Analytical IT Precision",
   experienceYears: "12+",
   itExperienceYears: "22+",
   rating: 4.9,
@@ -33,19 +33,19 @@ const PROFILE_DATA = {
   caseStudiesCount: "1,000+",
   avatar: "assets/nitesh-alag.png",
   avatarFallback: "assets/nitesh-alag.png",
-  jobTitle: "🏢 Scientific Vastu for IT Parks, Commercial Hubs & Modern Apartments 🏡 Non-Demolition Spatial Remedies & L-ROD Energy Scanning 🌸 Holistic Emotional Well-being via Bach Flower Therapy 🔮 Over 12+ years, guiding clients across India and globally",
+  jobTitle: "🏢 Systematic Vastu for IT Parks, Commercial Hubs & Modern Apartments 🏡 Non-Demolition Spatial Remedies & L-ROD Energy Scanning 🌸 Holistic Emotional Well-being via Bach Flower Therapy 🔮 Over 12+ years, guiding clients across India and globally",
   headlinePoints: [
-    "🏢 Scientific Vastu for IT Parks, Commercial Hubs & Modern Apartments",
+    "🏢 Systematic Vastu for IT Parks, Commercial Hubs & Modern Apartments",
     "🏡 Non-Demolition Spatial Remedies & L-ROD Telluric Energy Scanning",
     "🧭 Directional 16-Zone Energy Balancing for Health, Wealth & Focus",
     "🌸 Holistic Wellness: Bach Flower Therapy & Complementary Vedic Astrology"
   ],
-  bio: `Nitesh Alag is an accomplished Vastu Shastra Expert and Spatial Energy Consultant with over 12+ years of professional practice in occult and architectural energy sciences. Uniquely combining 22+ years of high-level IT database architecture experience with ancient Vedic spatial design, Nitesh brings an unmatched analytical, data-driven rigor to energy alignment.
+  bio: `Nitesh Alag is an accomplished Vastu Shastra Expert and Spatial Energy Consultant with over 12+ years of professional practice in Vedic Vastu and architectural energy alignment. Uniquely combining 22+ years of high-level IT database architecture experience with ancient Vedic spatial design, Nitesh brings an unmatched analytical, data-driven rigor to energy alignment.
 
 His expertise specializes in modern high-rise apartments, tech parks, corporate offices, and luxury residences. Recognizing that modern architectural constraints make structural breaking impractical, Nitesh champions the 'Zero-Demolition Vastu' philosophy—rectifying energy imbalances through subtle elemental re-balancing, metallic inserts, sacred geometry, color harmonics, and precision directional orientation.
 
 Trained formally under distinguished Gurus, his mastery encompasses Vastu Shastra, advanced L-ROD energy scanning for geopathic stress, Swaryoga, and certified Bach Flower Therapy. Whether evaluating a tech startup's founder cabin for cash flow, or realigning a luxury high-rise apartment for peace and health, Nitesh provides clear, logical, and transformative guidance trusted by doctors, corporate executives, entrepreneurs, and homeowners across India and worldwide.`,
-  badges: ["Vastu Authority", "IT Veteran", "Community Care", "Host Worthy"],
+  badges: ["Vedic Vastu", "IT Veteran", "Community Care", "Host Worthy"],
   socials: [
     { name: "Medium", url: "https://niteshalaagh.medium.com/", icon: "medium", handle: "@niteshalaagh" },
     { name: "YouTube", url: "https://www.youtube.com/@vastubynitesh", icon: "youtube", handle: "@vastubynitesh" },
@@ -267,16 +267,16 @@ const SERVICES_DATA = [
     price: 2700,
     formattedPrice: "₹2,700",
     highlight: true,
-    tag: "Holistic Health",
-    summary: "Gentle natural therapy using Dr. Edward Bach's flower remedies to release anxiety, stress, fears, and psychosomatic blocks. Available via 1:1 healing call or structured written assessment (your choice).",
+    tag: "Emotional Wellbeing",
+    summary: "Gentle natural approach using Dr. Edward Bach's flower remedies to support emotional balance during periods of stress, worry, or fear. Available via 1:1 healing call or structured written assessment (your choice).",
     features: [
       "Format: 1:1 Healing Call or Structured Written Assessment (Your Choice)",
       "Emotional assessment and root-cause behavioral dialogue",
       "Custom formulation of flower essences tailored to your mental state",
-      "Safe, non-habit forming, zero side effects natural remedy protocol",
+      "Gentle natural remedy protocol that complements, not replaces, medical care",
       "Usage dosage schedule and emotional tracking guidance"
     ],
-    whatsappMsg: "Namaste Nitesh ji, I would like to book a 'Bach Flower Health Consultation' (₹2,700) via Call or Written format (my choice) for emotional and health balance."
+    whatsappMsg: "Namaste Nitesh ji, I would like to book a 'Bach Flower Health Consultation' (₹2,700) via Call or Written format (my choice) for emotional balance."
   },
   {
     id: "2304189",
@@ -288,7 +288,7 @@ const SERVICES_DATA = [
     formattedPrice: "₹2,700",
     highlight: false,
     tag: "Knowledge Transfer",
-    summary: "Personalized 1-on-1 teaching session in occult sciences: learn Vastu principles, Swaryoga breathing, or chart reading fundamentals. Available via live masterclass call or guided written curriculum (your choice).",
+    summary: "Personalized 1-on-1 teaching session in Vedic sciences: learn Vastu principles, Swaryoga breathing, or chart reading fundamentals. Available via live masterclass call or guided written curriculum (your choice).",
     features: [
       "Format: 1:1 Live Masterclass Call or Guided Written Curriculum (Your Choice)",
       "Curriculum tailored to your interest and level",
@@ -374,7 +374,7 @@ const TESTIMONIALS_DATA = [
   },
   {
     id: 9,
-    name: "Occult Science Student",
+    name: "Vedic Sciences Student",
     role: "Learning Session Attendee",
     rating: 5,
     pinned: false,
@@ -386,7 +386,7 @@ const TESTIMONIALS_DATA = [
 const FAQS_DATA = [
   {
     q: "How does an Online Vastu Consultation work without an in-person visit?",
-    a: "Through precise architectural floor plans, satellite Google Earth coordinates, and video walkthroughs, we evaluate all 16 Vastu zones and energy pathways. Scientific Vastu remedies (color balancing, elemental corrections, copper/brass rods) can be accurately placed without requiring destructive structural remodeling."
+    a: "Through precise architectural floor plans, satellite Google Earth coordinates, and video walkthroughs, we evaluate all 16 Vastu zones and energy pathways. Vastu remedies (color balancing, elemental corrections, copper/brass rods) can be accurately placed without requiring destructive structural remodeling."
   },
   {
     q: "Do I need to break walls or renovate my home for Vastu remedies?",
@@ -402,7 +402,7 @@ const FAQS_DATA = [
   },
   {
     q: "What is Bach Flower Therapy and how does it combine with Astrology?",
-    a: "Bach Flower Therapy consists of 38 natural flower remedies discovered by Dr. Edward Bach that treat emotional imbalances (fear, anxiety, grief, indecision). By cross-analyzing your planetary dasha and moon sign, Nitesh identifies psychosomatic vulnerabilities and prescribes targeted remedies."
+    a: "Bach Flower Therapy consists of 38 natural flower remedies discovered by Dr. Edward Bach used to support emotional balance (fear, worry, grief, indecision). By cross-analyzing your planetary dasha and moon sign, Nitesh identifies emotional patterns and suggests a tailored blend. It complements, and does not replace, medical or psychological care."
   }
 ];
 

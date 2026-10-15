@@ -230,7 +230,7 @@ function initTestimonials() {
     return `
       <div class="testimonial-card ${t.pinned ? 'pinned' : ''}">
         <div>
-          ${t.pinned ? `<div class="testimonial-pinned-tag">📌 Verified Client Highlight</div>` : ''}
+          ${t.pinned ? `<div class="testimonial-pinned-tag">📌 Client Highlight</div>` : ''}
           <div class="testimonial-stars">
             ${starIcon.repeat(t.rating)}
           </div>
