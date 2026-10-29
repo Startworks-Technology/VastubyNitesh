@@ -31,8 +31,8 @@ const PROFILE_DATA = {
   bookingsCount: "63+",
   testimonialsCount: "18+",
   caseStudiesCount: "1,000+",
-  avatar: "assets/nitesh-alag.png",
-  avatarFallback: "assets/nitesh-alag.png",
+  avatar: "assets/nitesh-alag.webp",
+  avatarFallback: "assets/nitesh-alag.webp",
   jobTitle: "🏢 Systematic Vastu for IT Parks, Commercial Hubs & Modern Apartments 🏡 Non-Demolition Spatial Remedies & L-ROD Energy Scanning 🔮 Vedic Astrology, Muhurat & Prashna Kundali Consultations 🌍 Over 12+ years, guiding clients across India and globally",
   headlinePoints: [
     "🏢 Systematic Vastu for IT Parks, Commercial Hubs & Modern Apartments",
@@ -405,7 +405,7 @@ const BLOG_POSTS_DATA = [
     readTime: "6 min read",
     date: "Jul 2026",
     image: "https://cdn-images-1.medium.com/max/1024/1*MNXRi6JQCv0utduHaXBXxw.png",
-    fallbackImage: "assets/vastu-logo.png",
+    fallbackImage: "assets/vastu-logo.webp",
     mediumUrl: "https://niteshalaagh.medium.com/the-silent-salesperson-why-your-logo-is-subconsciously-make-or-break-decision-c8a717c9f1bd",
     summary: "Why your next corporate logo shouldn't start with a designer's mood board, but with elemental physics: why Red rules food, Blue is chosen for IT, and how geometry governs subconscious customer trust.",
     bullets: [
