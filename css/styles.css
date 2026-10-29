@@ -327,6 +327,10 @@ button {
   border-radius: calc(var(--radius-sm) - 2px);
 }
 
+.brand-text {
+  white-space: nowrap;
+}
+
 .brand-text h1 {
   font-size: 1.15rem;
   line-height: 1.1;
@@ -1603,13 +1607,35 @@ button {
   }
 }
 
-@media (max-width: 860px) {
+/* Full nav needs ~1120px; collapse to the menu toggle below that */
+@media (max-width: 1180px) {
   .nav-links, .nav-actions .btn {
     display: none;
   }
   .mobile-toggle {
     display: block;
   }
+  /* Mobile menu open */
+  .nav-links.mobile-open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 4.5rem;
+    left: 0;
+    right: 0;
+    background-color: var(--bg-canvas);
+    border-bottom: 1px solid var(--border-light);
+    padding: 1.5rem 2rem;
+    gap: 1.25rem;
+    box-shadow: var(--shadow-md);
+  }
+  .nav-links.mobile-open a {
+    font-size: 1rem;
+    padding: 0.25rem 0;
+  }
+}
+
+@media (max-width: 860px) {
   .hero-title {
     font-size: 2.2rem;
   }
@@ -1649,24 +1675,6 @@ button {
   }
   .floating-whatsapp-tooltip {
     display: none;
-  }
-  /* Mobile menu open */
-  .nav-links.mobile-open {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 4.5rem;
-    left: 0;
-    right: 0;
-    background-color: var(--bg-canvas);
-    border-bottom: 1px solid var(--border-light);
-    padding: 1.5rem 2rem;
-    gap: 1.25rem;
-    box-shadow: var(--shadow-md);
-  }
-  .nav-links.mobile-open a {
-    font-size: 1rem;
-    padding: 0.25rem 0;
   }
 }
 
