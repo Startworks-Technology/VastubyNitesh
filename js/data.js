@@ -22,7 +22,7 @@ const SITE_CONFIG = {
 
 const PROFILE_DATA = {
   name: "Nitesh Alag",
-  title: "Vastu Shastra Expert & Spatial Energy Consultant",
+  title: "Vastu Shastra Expert & Vedic Astrology Consultant",
   tagline: "Bridging 5,000-Year-Old Vedic Vastu Wisdom with 22+ Years of Analytical IT Precision",
   experienceYears: "12+",
   itExperienceYears: "22+",
@@ -33,18 +33,18 @@ const PROFILE_DATA = {
   caseStudiesCount: "1,000+",
   avatar: "assets/nitesh-alag.png",
   avatarFallback: "assets/nitesh-alag.png",
-  jobTitle: "🏢 Systematic Vastu for IT Parks, Commercial Hubs & Modern Apartments 🏡 Non-Demolition Spatial Remedies & L-ROD Energy Scanning 🌸 Holistic Emotional Well-being via Bach Flower Therapy 🔮 Over 12+ years, guiding clients across India and globally",
+  jobTitle: "🏢 Systematic Vastu for IT Parks, Commercial Hubs & Modern Apartments 🏡 Non-Demolition Spatial Remedies & L-ROD Energy Scanning 🔮 Vedic Astrology, Muhurat & Prashna Kundali Consultations 🌍 Over 12+ years, guiding clients across India and globally",
   headlinePoints: [
     "🏢 Systematic Vastu for IT Parks, Commercial Hubs & Modern Apartments",
     "🏡 Non-Demolition Spatial Remedies & L-ROD Telluric Energy Scanning",
     "🧭 Directional 16-Zone Energy Balancing for Health, Wealth & Focus",
-    "🌸 Holistic Wellness: Bach Flower Therapy & Complementary Vedic Astrology"
+    "🔮 Vedic Astrology: Horoscope Reading, Muhurat & Prashna Kundali"
   ],
   bio: `Nitesh Alag is an accomplished Vastu Shastra Expert and Spatial Energy Consultant with over 12+ years of professional practice in Vedic Vastu and architectural energy alignment. Uniquely combining 22+ years of high-level IT database architecture experience with ancient Vedic spatial design, Nitesh brings an unmatched analytical, data-driven rigor to energy alignment.
 
 His expertise specializes in modern high-rise apartments, tech parks, corporate offices, and luxury residences. Recognizing that modern architectural constraints make structural breaking impractical, Nitesh champions the 'Zero-Demolition Vastu' philosophy—rectifying energy imbalances through subtle elemental re-balancing, metallic inserts, sacred geometry, color harmonics, and precision directional orientation.
 
-Trained formally under distinguished Gurus, his mastery encompasses Vastu Shastra, advanced L-ROD energy scanning for geopathic stress, Swaryoga, and certified Bach Flower Therapy. Whether evaluating a tech startup's founder cabin for cash flow, or realigning a luxury high-rise apartment for peace and health, Nitesh provides clear, logical, and transformative guidance trusted by doctors, corporate executives, entrepreneurs, and homeowners across India and worldwide.`,
+Trained formally under distinguished Gurus, his mastery encompasses Vastu Shastra, advanced L-ROD energy scanning for geopathic stress, Swaryoga, and Vedic Astrology. Whether evaluating a tech startup's founder cabin for cash flow, or realigning a luxury high-rise apartment for peace and health, Nitesh provides clear, logical, and transformative guidance trusted by doctors, corporate executives, entrepreneurs, and homeowners across India and worldwide.`,
   badges: ["Vedic Vastu", "IT Veteran", "Community Care", "Host Worthy"],
   socials: [
     { name: "Medium", url: "https://niteshalaagh.medium.com/", icon: "medium", handle: "@niteshalaagh" },
@@ -187,8 +187,8 @@ const SERVICES_DATA = [
     category: "astrology",
     categoryLabel: "Vedic Astrology",
     type: "Call or Written (Your Choice)",
-    price: 5300,
-    formattedPrice: "₹5,300",
+    price: 5100,
+    formattedPrice: "₹5,100",
     highlight: true,
     tag: "Popular",
     summary: "Comprehensive life-path horoscope reading covering career trajectory, relationship dynamics, financial yogas, and health. Available via 1:1 deep-dive call or full written analysis (your choice).",
@@ -221,25 +221,6 @@ const SERVICES_DATA = [
     whatsappMsg: "Namaste Nitesh ji, I would like to request 'Single Question Detailing' (₹3,300) via Call or Written format (my choice). I have a specific question to analyze."
   },
   {
-    id: "2307149",
-    title: "Multiple Question Detailed Report",
-    category: "astrology",
-    categoryLabel: "Vedic Astrology",
-    type: "Call or Written (Your Choice)",
-    price: 6000,
-    formattedPrice: "₹6,000",
-    highlight: false,
-    tag: "In-Depth Assessment",
-    summary: "Comprehensive multi-question assessment addressing up to 4 major life questions with detailed planetary insights. Available via 1:1 consultation call or complete written dossier (your choice).",
-    features: [
-      "Format: 1:1 Consultation Call or Complete Written Dossier (Your Choice)",
-      "Detailed analysis for up to 4 life queries",
-      "Dasha breakdown and future milestones",
-      "Customized remedial recommendations for each sphere of life"
-    ],
-    whatsappMsg: "Namaste Nitesh ji, I would like to order a 'Multiple Question Detailed Report' (₹6,000) via Call or Written format (my choice) for my horoscope."
-  },
-  {
     id: "2289267",
     title: "Prashna Kundali - Single Question",
     category: "astrology",
@@ -257,26 +238,6 @@ const SERVICES_DATA = [
       "Prompt response within 24-48 hours"
     ],
     whatsappMsg: "Namaste Nitesh ji, I would like to consult via 'Prashna Kundali' (₹2,400) via Call or Written format (my choice) for an urgent matter."
-  },
-  {
-    id: "1637635",
-    title: "Bach Flower Health Consultation",
-    category: "bachflower",
-    categoryLabel: "Bach Flower Therapy",
-    type: "Call or Written (Your Choice)",
-    price: 2700,
-    formattedPrice: "₹2,700",
-    highlight: true,
-    tag: "Emotional Wellbeing",
-    summary: "Gentle natural approach using Dr. Edward Bach's flower remedies to support emotional balance during periods of stress, worry, or fear. Available via 1:1 healing call or structured written assessment (your choice).",
-    features: [
-      "Format: 1:1 Healing Call or Structured Written Assessment (Your Choice)",
-      "Emotional assessment and root-cause behavioral dialogue",
-      "Custom formulation of flower essences tailored to your mental state",
-      "Gentle natural remedy protocol that complements, not replaces, medical care",
-      "Usage dosage schedule and emotional tracking guidance"
-    ],
-    whatsappMsg: "Namaste Nitesh ji, I would like to book a 'Bach Flower Health Consultation' (₹2,700) via Call or Written format (my choice) for emotional balance."
   },
   {
     id: "2304189",
@@ -364,15 +325,6 @@ const TESTIMONIALS_DATA = [
     text: "Great guy he is, gave simple remedies to balance life. Straight forward, no extra talks. I found him suitable person to connect for all life problems."
   },
   {
-    id: 8,
-    name: "Health Consultation Client",
-    role: "Bach Flower Recipient",
-    rating: 5,
-    pinned: false,
-    highlight: "Understood problems in a new way",
-    text: "It was really helpful for me taking consultation of Bach Flower with Nitesh ji. I understand my problems in a different way and will solve through that."
-  },
-  {
     id: 9,
     name: "Vedic Sciences Student",
     role: "Learning Session Attendee",
@@ -401,8 +353,8 @@ const FAQS_DATA = [
     a: "Yes, absolutely! For all services, the choice is entirely yours. You can opt for an interactive 1:1 direct phone/video call to discuss your queries live, or receive a comprehensive written report and step-by-step remedial roadmap directly on WhatsApp/email—whichever format suits you best."
   },
   {
-    q: "What is Bach Flower Therapy and how does it combine with Astrology?",
-    a: "Bach Flower Therapy consists of 38 natural flower remedies discovered by Dr. Edward Bach used to support emotional balance (fear, worry, grief, indecision). By cross-analyzing your planetary dasha and moon sign, Nitesh identifies emotional patterns and suggests a tailored blend. It complements, and does not replace, medical or psychological care."
+    q: "What details do I need to share for an Astrology consultation?",
+    a: "Share your date, exact time, and place of birth. For Vedic Astrology readings, Nitesh analyzes your Lagna, D9 Navamsha, and current Mahadasha. If your birth time is unverified, a Prashna Kundali (horary) reading can be cast on the moment your question is received instead."
   }
 ];
 
@@ -503,17 +455,17 @@ const BLOG_POSTS_DATA = [
     title: "22 Years as a Database Architect. Then I Started Reading People.",
     slug: "22-years-database-architect-then-started-reading-people",
     category: "lifestyle",
-    categoryLabel: "Career, Mind & Healing",
+    categoryLabel: "Career, Mind & Astrology",
     readTime: "8 min read",
     date: "Jul 2026",
     image: "https://cdn-images-1.medium.com/max/1024/1*ubiXmG4j48sJtBJVXfOFeQ.jpeg",
-    fallbackImage: "assets/vastu-flowers-wellness.jpg",
+    fallbackImage: "assets/vastu-happy-living.jpg",
     mediumUrl: "https://niteshalaagh.medium.com/22-years-as-a-database-architect-then-i-started-reading-people-e38708f9b523",
-    summary: "Why some professionals thrive in roles that completely exhaust others, and how an ancient framework of five elements and Bach Flower emotional resonance explains human resilience better than personality tests.",
+    summary: "Why some professionals thrive in roles that completely exhaust others, and how an ancient framework of five elements and planetary influences explains human resilience better than personality tests.",
     bullets: [
       "From enterprise database schemas to the architectural blueprints of human energy",
       "Diagnosing mental burnout, imposter syndrome, and elemental depletion",
-      "Synthesizing logical troubleshooting with Bach Flower emotional therapy"
+      "Synthesizing logical troubleshooting with Vedic elemental analysis"
     ]
   }
 ];
